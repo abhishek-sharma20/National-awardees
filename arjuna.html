@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjuna awardees</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .dropbtn {
+    background-color: rgb(255, 221, 182);
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+      background-color: white;
+    
+  }
+  
+  /* The search field */
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 221, 182);
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 221, 182);
+    min-width: 230px;
+    
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+      </style>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+              <img src="images/logo.png" />
+            </div>
+            <div class="icon">
+              <span class="toggle">☰</span>
+            </div>
+            <ul class="list-item">
+              <li><a href="xyz.html">Home</a></li>
+              <li><a href="xyz.html">Search</a></li>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Search</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="BharatRatna.html">Bharat ratna</a>
+                  <a href="#">PADMA BHUSHA</a>
+                  <a href="padmashri.html">PADMA SHRI</a>
+                  <a href="Padmavibhushan.html">PADMA VIBHUSHAN</a>
+                  <a href="#">MAHAVIR CHAKRA</a>
+                  <a href="#">VIR CHAKRA</a>
+                  <a href="AshokChakra.html">ASHOKA CHAKRA</a>
+                  <a href="#">SHAURYA CHAKRA</a>
+                  <a href="paramveer.html">PARAMVIR CHAKRA</a>
+                  <a href="DRONACHARYAAWARD.html">DRONA CHARYA AWARD</a>
+                  <a href="arjuna.html">ARJUNA RATNA</a>
+                  <a href="#">DADA SAHEB PHALKE AWARD</a>
+                </div>
+              </div>
+              <li><a href="#bottom">About us</a></li>
+            </ul>
+          </nav>
+          <script src="js/script.js"></script>
+        </header>
+        <div class="background-image">
+        <div class="award">
+            <img src="images/arjunaaward.jpg" alt="awardpic" id="awardpic">
+            <h2>Arjuna awardees</h2>
+        </div>
+    
+    
+        
+        <!-- Copy from here -->
+        <div class="content">
+            <img src="images/neeraj.jpg" alt="" class="leftpic">
+            <h3>Neeraj Chopra(2018)</h3>
+            <p>Neeraj Chopra (born 24 December 1997) is a track and field athlete from India and the reigning Olympic champion, World championship 
+                silver medalist, and the Diamond League champion in javelin throw. He is the first Asian athlete to win an Olympic gold medal in men's 
+                javelin throw. A Junior Commissioned Officer (JCO) in the Indian Army, Chopra is the first track and field athlete to win a gold medal 
+                for India at the Olympics.[6] He is also the first track and field athlete from India to win at the IAAF World U20 Championships, where 
+                in 2016 he achieved a world under-20 record throw of 86.48 m, becoming the first Indian athlete to set a world record. Chopra participated 
+                in the 2018 Commonwealth Games and the 2018 Asian Games, serving as the flag-bearer in the latter and winning gold medals in both. In his
+                 debut at the 2020 Tokyo Olympics, Neeraj won the gold medal on 7 August 2021 with a throw of 87.58 m in his second attempt. As of 2021, he 
+                 is one of only two Indians to have won an individual Olympic gold medal (the other being Abhinav Bindra), as well as the 
+                youngest-ever Indian Olympic gold medalist in an individual event and the only one to have won gold in his Olympic debut.
+
+     
+            </p>
+        </div>
+        <div class="content">
+            <img src="images/hima.jpg" alt="" class="rightpic">
+            <h3>Hima Das(2018)</h3>
+            <p>Hima Das (born 9 January 2000), nicknamed Dhing Express, is an Indian sprinter from the state of Assam. She holds 
+                the current Indian national record in 400 meters with a timing of 50.79 s that she clocked at the 2018 Asian Games in 
+                Jakarta, Indonesia. She is the first Indian athlete to win a gold medal in a track event at the IAAF World U20 Championships. She was appointed as
+                 a Deputy Superintendent of Police (DSP) in Assam Police under the state's Integrated Sport Policy.</p>
+        </div>
+
+        <!-- Copy till here -->
+
+          <!-- Copy from here -->
+          <div class="content">
+            <img src="images/satish.jpg" alt="" class="leftpic">
+            <h3>Satish Kumar (2018)</h3>
+            <p>Subedar Major Satish Kumar (born 4 May 1989) is an Indian amateur boxer and a junior commissioned officer (JCO) of the Indian Army.
+                He won the bronze medal at the 2014 Asian Games at Incheon in the super heavyweight category and silver at the 2018 
+                Commonwealth Games. He is the first Indian boxer to qualify for the Olympics in the super heavyweight category.
+
+    
+     
+            </p>
+        </div>
+        <div class="content">
+            <img src="images/smriti.jpg" alt="" class="rightpic">
+            <h3>Smriti Mandhana(2018)</h3>
+            <p>Smriti Shriniwas Mandhana (/smɪˌrɪ.tiː ˈmɑːn.dən.ɑː/ smi-ri-tee MAHN-dən-ah; born 18 July 1996) is an 
+                Indian cricketer who plays for the Indian women's national team. In June 2018, the Board of Control for
+                 Cricket in India (BCCI) named her as the Best Women's International Cricketer. In December 2018, the 
+                 International Cricket Council (ICC) awarded her with the Rachael Heyhoe-Flint Award for the best female 
+                 cricketer of the year. On 30 December 2021, she became a nominee of the ICC Women's T20 Player of the Year.
+                  In December 2021, she, Tammy Beaumont, Lizelle Lee and Gaby Lewis were nominated for the ICC Women's Cricketer 
+                 of the Year. In January 2022, the ICC
+                 awarded her with the Rachael Heyhoe-Flint Award for the ICC Women's Cricketer of the Year.</p>
+        </div>
+        
+        <!-- Copy till here -->
+
+          <!-- Copy from here -->
+          <div class="content">
+            <img src="images/shubhankar.png" alt="" class="leftpic">
+            <h3>Shubhankar Sharma(2018)</h3>
+            <p>Shubhankar Sharma (born 21 July 1996) is a professional golfer from India. In December 2017, he recorded his first tour win in the Joburg Open and 
+                followed this with a second win at the Maybank Championship in February 2018. He studied at Bal Bhawan School, Bhopal.
+
+     
+            </p>
+        </div>
+        <div class="content">
+            <img src="images/manpreet.jpg" alt="" class="rightpic">
+            <h3>Shri Manpreet
+                Singh(2018)</h3>
+            <p>Manpreet Singh Pawar (born 26 June 1992) is an Indian field hockey player and the captain of India men's national
+                 field hockey team since May 
+                2017. He led the Indian field hockey team to the bronze medal at the Tokyo 2020 Olympics. He plays as a halfback.
+
+                He first played for India in 2011 at the age of 19. He represented India at the 2012 Summer Olympics and was 
+                named Asia's Junior Player of the Year in 2014. He was named in the Indian squad for the 2016 Summer Olympics.</p>
+        </div>
+        
+        <!-- Copy till here -->
+
+         <!-- Copy from here -->
+         <div class="content">
+            <img src="images/rathore.jfif" alt="" class="leftpic">
+            <h3>Ravi Rathore(2018)</h3>
+            <p>Ravi Rathore is a notable Indian polo player and an Arjuna Awardee. He is a Colonel and Commandant of 
+                the 61st Cavalry Regiment of the Indian Army, and also holds the appointment of Honorary secretary of 
+                the Indian Polo Association (IPA). Ravi Rathore is also the highest handicapped polo player in the Indian
+                 Army. He has been an integral part of been part of the Indian Polo team for 
+                five consecutive World cup championships and won two golds in 2011 and 2017.
+     
+            </p>
+        </div>
+        <div class="content">
+            <img src="images/rahi.jpg" alt="" class="rightpic">
+            <h3>Ms. Rahi Sarnobat(2018)</h3>
+            <p>Rahi Jeevan Sarnobat (Marathi: राही सरनोबत) is a female athlete from India who competes in the 25 metre pistol shooting event. 
+                She won her first gold medal at the 2008 Commonwealth Youth Games in Pune, India. She is the first woman
+                 to win a gold medal in shooting at the Asian Games for India – she won the gold at the 2018 Jakarta Palembang 
+                 Asian Games in the women's 25 metre pistol event. She won two gold medals in 2010 Commonwealth Games in New Delhi, 
+                 the first of the two golds in coming in the 25 metre pistol pair event with Anisa Sayyed. She had previously won gold
+                  in the 25 metre pistol event at the 2008 Youth Commonwealth Games, which were held in India.</p>
+        </div>
+        
+        <!-- Copy till here -->
+
+         <!-- Copy from here -->
+         <div class="content">
+            <img src="images/shreyasi.jpg" alt="" class="leftpic">
+            <h3>Shreyasi Singh(2018)</h3>
+            <p>Shreyasi Singh (born 29 August 1991) is an Indian shooter and politician. She competes in the double trap event. She won a 
+                gold medal in the Shooting at the 2018 Commonwealth Games in Gold Coast, Australia - Women's double trap and a silver 
+                medal at the 2014 Commonwealth Games in Glasgow, Scotland. In 2020, she joined India's ruling Bharatiya 
+                Janata Party and is a Member of Bihar Legislative Assembly from Jamui constituency.
+
+     
+            </p>
+        </div>
+        <div class="content">
+            <img src="images/manika.jpg" alt="" class="rightpic">
+            <h3>Manika Batra(2018)</h3>
+            <p>Manika Batra (born 15 June 1995) is an Indian table tennis player. As of November 2020, she is the top-ranked 
+                female table tennis player in India and ranked 50th in the 
+                world as of March 2022. She was awarded the Major Dhyan Chand Khel Ratna in 2020.</p>
+        </div>
+        
+        <!-- Copy till here -->
+        <div class="bottom-container" id="bottom">
+            <a class="footer-link" href="#">LinkedIn</a>
+            <a class="footer-link" href="#">Instagram</a>
+            <a class="footer-link" href="#">Github</a>
+            <p class="copyright">© 2022 VITBHOPAL</p>
+          </div>
+          <script>
+            /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+        </script>
+</body>
+</html>
